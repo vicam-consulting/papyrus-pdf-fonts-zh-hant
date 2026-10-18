@@ -1,23 +1,23 @@
 {
-    "name": "vicam/papyrus-pdf-fonts-zh-hant",
-    "description": "Static Noto Sans and Serif TC Regular for PapyrusPDF forms and overlays.",
+    "name": "vicam/pdf-fonts-zh-hant",
+    "description": "Static Noto Sans and Serif TC Regular for Vicam PDF forms and overlays.",
     "type": "library",
     "license": "proprietary",
     "require": {
         "php": "^8.3",
-        "vicam/papyrus-pdf": "^0.3.4"
+        "vicam/pdf": "^0.4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.5"
     },
     "autoload": {
         "psr-4": {
-            "PapyrusPDF\\FontsZhHant\\": "src/"
+            "Vicam\\Pdf\\FontsZhHant\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PapyrusPDF\\FontsZhHant\\Tests\\": "tests/"
+            "Vicam\\Pdf\\FontsZhHant\\Tests\\": "tests/"
         }
     },
     "scripts": {

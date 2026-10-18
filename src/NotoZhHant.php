@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PapyrusPDF\FontsZhHant;
+namespace Vicam\Pdf\FontsZhHant;
 
-use PapyrusPDF\Forms\{FormFontFallbacks, FormFontPackage};
+use Vicam\Pdf\Forms\{FormFontFallbacks, FormFontPackage};
 
 /** Static Regular Traditional Chinese fonts; files are read lazily and subset-embedded. */
 final class NotoZhHant implements FormFontPackage
